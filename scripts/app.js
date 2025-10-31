@@ -49,7 +49,7 @@ async function initArrondissementPage() {
 // Charger les données depuis voie.json
 async function loadVoiesData() {
     try {
-        const response = await fetch('../Data/voie.json');
+        const response = await fetch('../datas/voie.json');
         if (!response.ok) {
             throw new Error('Erreur de chargement du fichier');
         }
